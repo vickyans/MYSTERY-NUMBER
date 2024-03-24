@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="author" content="VICTOR">
+    <link rel="stylesheet" href="guess.css">
+</head>
+
+<body>
+    <h1 id="game-name">GUESS MY NUMBER</h1>
+    <main class="game">
+        <section id="key-header">
+
+            <div class="line"></div>
+            <div class="randomNumberToGuess">
+                <span id="question-mark">?</span>
+            </div>
+            <div class="line"></div>
+        </section>
+        <section><label for="input"> Number between 1 and 20:</label> <input id="input" placeholder="Try"
+                type="number" />
+        </section>
+        <button class="checkbutton">Check</button>
+        <section class="stats">
+            <h2 class="comment">Starting....</h2>
+            <h3>score: <span class="score">20</span>/20</h3>
+            <h3>highscore: <span class="highscore">0</span>/20</h3>
+        </section>
+    </main>
+
+    <script src="guess.js"></script>
+</body>
+
+</html>

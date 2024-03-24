@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(90deg, rgb(111, 3, 3), rgb(40, 28, 148));
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+.randomNumberToGuess {
+  height: 100px;
+  width: 200px;
+  border-radius: 50%;
+  background: white;
+  border: none;
+  font-size: 52px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: red;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  vertical-align: middle;
+  z-index: 99;
+}
+input {
+  width: 100px;
+  height: 30px;
+  font-size: 32px;
+}
+#game-name {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 65px;
+}
+#question-mark {
+  position: relative;
+  top: 25px;
+}
+label {
+  color: white;
+  font-size: 32px;
+  margin-left: 10px;
+}
+.stats {
+  text-align: center;
+  font-size: 25px;
+}
+.line {
+  height: 2px;
+  width: 40vw;
+  background-color: aliceblue;
+  margin: auto;
+}
+#key-header {
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+}
+button {
+  height: 50px;
+  border: none;
+  width: 100px;
+  border-radius: 8px;
+  margin: 20px 300px;
+}
+main {
+  height: 500px;
+  width: 700px;
+  background: linear-gradient(rgb(169, 92, 92), rgb(53, 38, 138));
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 12px 8px 12px 8px rgb(20, 19, 19);
+}
